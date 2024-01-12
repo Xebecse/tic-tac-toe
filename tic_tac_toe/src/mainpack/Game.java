@@ -82,7 +82,8 @@ public class Game {
 	    System.out.println(" " + boardChoices[6] + " | " + boardChoices[7] + " | " + boardChoices[8] + " ");
 	    System.out.println("   |   |   ");   
 	}
-	
+
+	// All of the possible winning patterns
 	static String checkWinner()
 	{
 	     for (int a = 0; a < 8; a++) {
